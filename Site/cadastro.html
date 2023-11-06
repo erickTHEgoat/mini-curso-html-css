@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/549e3825c7.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/icone.ico.png" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+    
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:darkolivegreen;
+    font-family: 'Lato' sans-serif;
+    position: relative;
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    width: 100px;
+    padding: 6px;
+
+}
+
+.logo{
+    position: relative;
+    left: 19vh;
+}
+.sobre{
+    position: relative;
+    background-color: green;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    margin:auto;
+    top: 25vh;
+    border-radius: 30px; 
+    align-items: center;
+}
+.cadastro{
+        display: flex;
+        flex-direction:column;
+        width: 80%;
+        align-items:center;
+}
+input{
+    display: flex;
+    position: relative;
+    margin-top: 25px;
+    height: 40px;
+    width: 250px;
+    left: 35px;
+    border-radius: 10px;
+}
+.btn{
+
+    display: flex;
+    position: relative;
+    background-color: goldenrod;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    left: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a{
+    position: relative;
+    padding:10px;
+    margin-top: 5px;
+    color: #000;
+    text-decoration: none;
+    
+    
+
+}
+
+  footer{
+        position: relative;
+        top: 480px;
+        height: 11px;
+    }
+    .textFinal{
+    position: relative;
+    text-align: center;
+    top: 45px;
+    }
+    </style>
+
+<body>
+
+    <header>
+        <h1 class="logo">
+            Barbearia
+        </h1>
+
+    </header>
+
+    <div class="sobre">
+        <h2>
+           Cadastre-se
+        </h2>
+        <form class="cadastro">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="e-mail">
+            <input type="password" placeholder="Senha">
+            <button class="btn">
+                <a href="../img/pix.png">Concluir
+            </button>
+        </form>
+    </div>
+
+    <footer>
+        <h2 class="textFinal">Barbearia&copy;</h2>
+    </footer>
+    
+</body>
+
+</html>

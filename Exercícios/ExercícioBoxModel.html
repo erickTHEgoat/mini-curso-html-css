@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício prático CSS</title>
+    
+    <style>
+
+    .box{
+
+           width: 300px;
+           border: 8px solid greenyellow;
+           padding: 30px;
+           margin: 10px;
+        
+    }
+    .relative{
+
+        position: relative;
+        left: 30px; /*MOVI 30PX PARA DIREITA*/
+
+    }
+    @media (max-width: 763px){
+    body {
+            background-color: red;
+     }
+     
+    }
+
+    @media (min-width: 764px) and (max-width: 2048px){
+    body{
+            background-color: lightblue;
+     }
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box"> <!--BOX MODEL-->
+           <p>
+            este é um elemento 
+            com Box Model aplicado. 
+           </p >
+    </div>
+
+    <div class="relative"> <!--USO DO POSICIONAMENTO DE ELEMENTOS-->
+        
+        <P>
+            USO DO POSICIONAMENTO DE ELEMENTOS
+        </P>
+
+    </div>
+
+</body>
+
+</html>

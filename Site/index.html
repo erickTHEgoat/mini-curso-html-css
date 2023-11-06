@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <script src="https://kit.fontawesome.com/549e3825c7.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/icone.ico.png" type="image/x-icon">
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    background-color:darkolivegreen;
+    font-family: 'Lato', sans-serif;
+
+        /*background-image: url(../img/barbearia.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-position-y: 0px;
+        font-family: 'Lato', sans-serif;*/
+}
+
+header{
+    position: relative;
+    display: flex;
+    width: 100px;
+    padding: 6px;
+
+
+}
+.logo{
+    position: relative;
+    left: 19vh;
+
+}
+
+.redes{
+    padding: 12px;
+    position: relative;
+    display:flex;
+    left: 120vh;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+        /*Botoes da pag*/
+    .container{
+        position: relative;
+        padding: auto;
+        top: 370px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .btn{
+
+        margin: 30px;
+        height: 65px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 15px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    /*animaçao btns*/
+    .btn:hover{
+        transform: scale(1.10);
+        transition: 1s;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    
+    }
+
+    /*Footer*/
+    footer{
+        position: relative;
+        top: 700px;
+        height: 11px;
+    }
+    .textFinal{
+    position: relative;
+    text-align: center;
+    top: 45px;
+    }
+    
+</style>
+
+<body>
+    <header>
+
+            <h1 class="logo">
+                Barbearia
+            </h1>
+
+            <ul class="redes">
+                <li><a href=""><i class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            </ul>
+            
+
+    </header>
+
+    <main>
+        <div class="container">
+
+            <button class="btn">
+                <a href="../Site/sobre.html" target="_blank">Sobre</a>
+            </button>
+
+            <button class="btn">
+                <a href="../Site/preco.html" target="_blank">Valores</a>
+            </button>
+
+            <button class="btn">
+                <a href="../Site/cadastro.html" target="blank">Cadastre-se</a>
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <h2 class="textFinal">Barbearia 2023&copy;</h2>
+    </footer>
+</body>
+</html>

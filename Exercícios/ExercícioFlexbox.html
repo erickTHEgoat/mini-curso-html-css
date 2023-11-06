@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+</head>
+
+<style>
+    .container{
+        display: flex; /*permitindo que os seus filho (box)
+        sejam flex items*/
+
+        justify-content: center; /*alinha os filhos com espaço
+        igual entre eles*/
+
+        align-items:center; /*Alinha os items verticalmente ao centro*/
+        
+        flex-wrap: wrap;
+        
+        height: 1000px;
+
+        
+    }
+    
+    .box{ /*Aqui foi definido a largura/altura e cor das caixas*/
+        
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 174, 0);
+        margin: 10px; /*desgruda as caixas*/
+        text-align:center;
+        align-items: center;
+        display: flex;
+        color: blue;
+        background-color: green;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    
+<div class="Container">
+
+<div class="box">box 1</div>
+<div class="box">box 2</div>
+<div class="box">box 3</div>
+<div class="box">box 4</div>
+<div class="box">box 5</div>
+<div class="box">box 6</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+
+<style>
+
+    .grid-Container{
+    
+            display:grid;
+            grid-template-columns:repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            grid-gap: 10px;
+
+    }
+    .Item-1 {
+     
+        background-color: green;
+        grid-column: 1;
+        text-align: center;
+        border: 1px solid;
+        text-align: center;
+
+        
+
+    }
+    .Item-2 {
+     
+        background-color: khaki;
+        grid-column: 2;
+        text-align: center;
+        border: 1px solid;
+        text-align: center;
+        
+    }
+    .Item-3 {
+     
+        background-color: darkred;
+        grid-column: 3;
+        grid-row: 2;
+        text-align: center;
+        border: 1px solid;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    
+    <div class="grid-Container">
+
+        <div class="Item-1"><a href="https://www.youtube.com/watch?v=bjLZas0_rhU">CLIQUE AQUI</a></div>
+        <div class="Item-2">Item 2</div>
+        <div class="Item-3">Item 3</div>
+
+    </div>
+
+</body>
+</html>
